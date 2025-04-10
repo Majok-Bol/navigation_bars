@@ -3,7 +3,8 @@ class RatingsPage extends StatelessWidget{
   @override
   Widget build(BuildContext context){
     return Scaffold(
-      appBar: AppBar(),
+      backgroundColor: Colors.lightBlue.shade100,
+
       body: Center(child: Text('Ratings Page'),),
     );
   }

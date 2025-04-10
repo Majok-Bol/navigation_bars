@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-class SettingsPage extends StatelessWidget{
+class FollowersPage extends StatelessWidget{
   @override
   Widget build(BuildContext context){
     return Scaffold(
-      appBar: AppBar(),
+      backgroundColor: Colors.green.shade300,
       body: Center(child: Text('Followers Page'),),
     );
   }
