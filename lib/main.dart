@@ -31,9 +31,12 @@ class MyApp extends StatelessWidget{
           child: Text('\nMeet like-minded people\nLike,rate and follow each other',style: TextStyle(fontSize: 21),),
     ),
         bottomNavigationBar: BottomNavigationBar(
+          backgroundColor: Colors.grey.shade700,
           iconSize: 25,
             unselectedFontSize: 15,
             selectedFontSize: 15,
+            selectedItemColor: Colors.white,
+            unselectedItemColor: Colors.white,
 
             items:[
           BottomNavigationBarItem(icon: Icon(Icons.star,color: Colors.green,),label:'Ratings'),
